@@ -1,24 +1,20 @@
-div{
-    background-color: #A8D1D1 !important;
-    padding: 1rem;
+.container {
+    position: relative;
+}.container:hover {
+     transform: scale(1.02);
+     font-weight: bold;
+ }
+
+
+a {
+    color: white;
 }
-.song {
-    background-color: #FD848A !important;
-    margin: 16px;
+
+.song-title {
+    position: absolute;
+    width: 568px;
+    bottom: 5px;
     padding: 16px;
-}
-
-
-li{
-    list-style-type: none;
-}
-/*
-li:nth-child(odd){
-    font-weight: bold;
-}*/
-
-li>div:hover{
-    background-color: #F1F785 !important;
-    font-weight: bold;
-    font_size:1.1rem;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
 }
